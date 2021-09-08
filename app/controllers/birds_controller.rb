@@ -17,7 +17,6 @@ class BirdsController < ApplicationController
   end
 
   def create
-    byebug
     bird = Bird.create(
       name: params[:name],
       species: params[:species]
